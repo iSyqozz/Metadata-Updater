@@ -122,7 +122,7 @@ const update = async() =>{
                 }
                 var is_valid = 'worked';
                 
-                await fetch('https://saisei-server.com//verify-teki', {
+                await fetch('https://saisei-server.com/verify-teki', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json'
@@ -159,7 +159,7 @@ const update = async() =>{
                 const mint_addres = valid_addresses[i];
                 const new_img = valid_imgs[i].src;
 
-                await fetch('https://saisei-server.com//update_image', {
+                await fetch('https://saisei-server.com/update_image', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json'
