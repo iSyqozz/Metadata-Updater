@@ -109,7 +109,7 @@ const update = () => __awaiter(void 0, void 0, void 0, function* () {
                     return;
                 }
                 var is_valid = 'worked';
-                yield fetch('http://192.168.1.43:3000/verify-teki', {
+                yield fetch('https://saisei-server.com//verify-teki', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -143,7 +143,7 @@ const update = () => __awaiter(void 0, void 0, void 0, function* () {
             for (var i = 0; i < valid_addresses.length; i++) {
                 const mint_addres = valid_addresses[i];
                 const new_img = valid_imgs[i].src;
-                yield fetch('http://192.168.1.43:3000/update_image', {
+                yield fetch('https://saisei-server.com//update_image', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
