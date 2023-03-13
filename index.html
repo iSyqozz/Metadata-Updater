@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Admin Panel</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="aman-style.css">
+  </head>
+
+  <body>
+
+    <div id="overlay"><div class="loader" id="temp-loader"></div><div id="hint-text">Validating inputs</div></div>
+
+    <div class="title">
+        <b>Image Updater</b>
+    </div>
+
+  <div class="connect-button"> Connect Wallet</div>
+
+  <div class="sized-box"></div>
+
+  <form>
+    <label for="username" class="adjust">Address 1:</label>
+    <input class="adjust" type="text" id="username1" name="username" placeholder="Enter NFT address">
+    <img class="adjust" id="pic1" src="./assets/base-invis.PNG" alt="">
+    <input class="adjust" type="file" id="image-upload1" accept="image/*" style="display: none;">
+
+  </form>
+
+  
+  <form>
+    <label class="adjust" for="username">Address 2:</label>
+    <input class="adjust" type="text" id="username2" name="username" placeholder="Enter NFT address">
+    <img class="adjust" id="pic2" src="./assets/base-invis.PNG" alt="">
+    <input class="adjust" type="file" id="image-upload2" accept="image/*" style="display: none;">
+</form>
+
+  
+  <form>
+    <label class="adjust" for="username">Address 3:</label>
+    <input class="adjust" type="text" id="username3" name="username" placeholder="Enter NFT address">
+    <img class="adjust" id="pic3" src="./assets/base-invis.PNG" alt="">
+    <input class="adjust" type="file" id="image-upload3" accept="image/*" style="display: none;">
+
+</form>
+
+  
+<form>
+    <label class="adjust" for="username">Address 4:</label>
+    <input class="adjust" type="text" id="username4" name="username" placeholder="Enter NFT address">
+    <img class="adjust" id="pic4" src="./assets/base-invis.PNG" alt="">
+    <input class="adjust" type="file" id="image-upload4" accept="image/*" style="display: none;">
+</form>
+
+<form>
+    <label class="adjust" for="username">Address 5:</label>
+    <input class="adjust" type="text" id="username5" name="username" placeholder="Enter NFT address">
+    <img class="adjust" id="pic5" src="./assets/base-invis.PNG" alt="">
+    <input class="adjust" type="file" id="image-upload5" accept="image/*" style="display: none;">
+</form>
+
+<div class="update_button">Update NFTs</div>
+
+<div class="custom-alert">
+    <p id="custom-alert-message"></p>
+  </div>
+
+<script type="module" src="build/main-aman.js"></script>
+  
+  </body>
